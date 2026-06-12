@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(90, 43, 43);
+}
+h1{
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(219, 178, 125);
+    margin-bottom: 100px;
+    
+}
+/*-------------------------------------------- box one ------------------ */
+
+.boxonebg{
+    padding: 25px 25px;
+    margin: 0 auto;
+    height: 400px;
+    width: 600px;
+    background-color: rgb(111, 14, 14);
+    border-radius: 20px;
+    box-shadow: 8px 17px 18px rgba(0, 0, 0, 0.122);
+}
+.boxone{
+    padding: 25px 25px;
+    height: 350px;
+    width: 550px;
+    background-color: rgb(219, 178, 125);
+    border-radius: 20px;
+    box-shadow: 18px 17px 18px rgba(0, 0, 0, 0.122);
+    border: 3px solid maroon;
+}
+.boxoneinput{
+    height: 60px;
+    width: 360px;
+    border-radius: 20px;
+    border: 1px solid maroon;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 65px;
+
+    
+}
+.btnone{
+    margin-top: 25px;
+    margin-left: 162px;
+    padding: 13px 50px;
+    border: none;
+    background: maroon;
+    color: burlywood;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btnone:hover{
+    background: rgb(176, 138, 88);
+    color: maroon;
+}
+.boxtextone{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(93, 2, 2);
+    margin-bottom: 50px;
+
+}
+.boxtextonee{
+    margin-top: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: burlywood;
+    background: rgb(74, 2, 2);
+    border-radius: 50px;
+}
+
+/* -------------------player one------------------------------- */
+
+.playone{
+    padding: 20px 100px;
+    display: none;
+}
+.playeronebg{
+    padding: 25px 25px;
+    margin: 0 auto;
+    height: 400px;
+    width: 600px;
+    background-color: rgb(111, 14, 14);
+    border-radius: 20px;
+    box-shadow: 8px 17px 18px rgba(0, 0, 0, 0.122);
+}
+.playerone{
+    padding: 25px 25px;
+    height: 350px;
+    width: 550px;
+    background-color: rgb(219, 178, 125);
+    border-radius: 20px;
+    box-shadow: 18px 17px 18px rgba(0, 0, 0, 0.122);
+    border: 3px solid maroon;
+}
+.playeroneinput{
+    height: 60px;
+    width: 360px;
+    border-radius: 20px;
+    border: 1px solid maroon;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 65px;
+
+    
+}
+.pbtnone{
+    margin-top: 25px;
+    margin-left: 171px;
+    padding: 13px 50px;
+    border: none;
+    background: maroon;
+    color: burlywood;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.pbtnone:hover{
+    background: rgb(176, 138, 88);
+    color: maroon;
+}
+.playertextone{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(93, 2, 2);
+    margin-bottom: 50px;
+
+}
+.playertextonee{
+    margin-top: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: burlywood;
+    background: rgb(74, 2, 2);
+    border-radius: 50px;
+}
+/* -------------------box three------------ */
+
+.btwo{
+    padding: 20px 100px;
+    display: none;
+}
+.boxtwobg{
+    padding: 25px 25px;
+    margin: 0 auto;
+    height: 400px;
+    width: 600px;
+    background-color: rgb(111, 14, 14);
+    border-radius: 20px;
+    box-shadow: 8px 17px 18px rgba(0, 0, 0, 0.122);
+}
+.boxtwo{
+    padding: 25px 25px;
+    height: 350px;
+    width: 550px;
+    background-color: rgb(219, 178, 125);
+    border-radius: 20px;
+    box-shadow: 18px 17px 18px rgba(0, 0, 0, 0.122);
+    border: 3px solid maroon;
+}
+.boxtwoinput{
+    height: 60px;
+    width: 360px;
+    border-radius: 20px;
+    border: 1px solid maroon;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 65px;
+
+    
+}
+.btntwo{
+    margin-top: 25px;
+    margin-left: 162px;
+    padding: 13px 50px;
+    border: none;
+    background: maroon;
+    color: burlywood;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btntwo:hover{
+    background: rgb(176, 138, 88);
+    color: maroon;
+}
+.boxtexttwo{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(93, 2, 2);
+    margin-bottom: 50px;
+
+}
+.boxtexttwoo{
+    margin-top: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: burlywood;
+    background: rgb(74, 2, 2);
+    border-radius: 50px;
+}
+
+/* -----------player two------------------- */
+
+.playtwo{
+    padding: 20px 100px;
+    display: none;
+}
+.playertwobg{
+    padding: 25px 25px;
+    margin: 0 auto;
+    height: 400px;
+    width: 600px;
+    background-color: rgb(111, 14, 14);
+    border-radius: 20px;
+    box-shadow: 8px 17px 18px rgba(0, 0, 0, 0.122);
+}
+.playertwo{
+    padding: 25px 25px;
+    height: 350px;
+    width: 550px;
+    background-color: rgb(219, 178, 125);
+    border-radius: 20px;
+    box-shadow: 18px 17px 18px rgba(0, 0, 0, 0.122);
+    border: 3px solid maroon;
+}
+.playertwoinput{
+    height: 60px;
+    width: 360px;
+    border-radius: 20px;
+    border: 1px solid maroon;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 65px;
+
+    
+}
+.pbtntwo{
+    margin-top: 25px;
+    margin-left: 172px;
+    padding: 13px 50px;
+    border: none;
+    background: maroon;
+    color: burlywood;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.pbtntwo:hover{
+    background: rgb(176, 138, 88);
+    color: maroon;
+}
+.playertexttwo{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(93, 2, 2);
+    margin-bottom: 50px;
+
+}
+.playertexttwoo{
+    margin-top: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: burlywood;
+    background: rgb(74, 2, 2);
+    border-radius: 50px;
+}
+
+/* ----------box three--------- */
+
+.bthree{
+    padding: 20px 100px;
+    display: none;
+}
+.boxthreebg{
+    padding: 25px 25px;
+    margin: 0 auto;
+    height: 400px;
+    width: 600px;
+    background-color: rgb(111, 14, 14);
+    border-radius: 20px;
+    box-shadow: 8px 17px 18px rgba(0, 0, 0, 0.122);
+}
+.boxthree{
+    padding: 25px 25px;
+    height: 350px;
+    width: 550px;
+    background-color: rgb(219, 178, 125);
+    border-radius: 20px;
+    box-shadow: 18px 17px 18px rgba(0, 0, 0, 0.122);
+    border: 3px solid maroon;
+}
+.boxthreeinput{
+    height: 60px;
+    width: 360px;
+    border-radius: 20px;
+    border: 1px solid maroon;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 65px;
+
+    
+}
+.btnthree{
+    margin-top: 25px;
+    margin-left: 162px;
+    padding: 13px 50px;
+    border: none;
+    background: maroon;
+    color: burlywood;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btnthree:hover{
+    background: rgb(176, 138, 88);
+    color: maroon;
+}
+.boxtextthree{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(93, 2, 2);
+    margin-bottom: 50px;
+
+}
+.boxtextthreee{
+    margin-top: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: burlywood;
+    background: rgb(74, 2, 2);
+    border-radius: 50px;
+}
+
+/* --------player three----------- */
+
+.playthree{
+    padding: 20px 100px;
+    display: none;
+}
+.playerthreebg{
+    padding: 25px 25px;
+    margin: 0 auto;
+    height: 400px;
+    width: 600px;
+    background-color: rgb(111, 14, 14);
+    border-radius: 20px;
+    box-shadow: 8px 17px 18px rgba(0, 0, 0, 0.122);
+}
+.playerthree{
+    padding: 25px 25px;
+    height: 350px;
+    width: 550px;
+    background-color: rgb(219, 178, 125);
+    border-radius: 20px;
+    box-shadow: 18px 17px 18px rgba(0, 0, 0, 0.122);
+    border: 3px solid maroon;
+}
+.playerthreeinput{
+    height: 60px;
+    width: 360px;
+    border-radius: 20px;
+    border: 1px solid maroon;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 65px;
+
+    
+}
+.pbtnthree{
+    margin-top: 25px;
+    margin-left: 172px;
+    padding: 13px 50px;
+    border: none;
+    background: maroon;
+    color: burlywood;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.pbtnthree:hover{
+    background: rgb(176, 138, 88);
+    color: maroon;
+}
+.playertextthree{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(93, 2, 2);
+    margin-bottom: 50px;
+
+}
+.playertextthreee{
+    margin-top: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: burlywood;
+    background: rgb(74, 2, 2);
+    border-radius: 50px;
+}
+/* ------gameover------- */
+
+.over{
+    padding: 20px 100px;
+    display: none;
+}
+.overbg{
+    padding: 25px 25px;
+    margin: 0 auto;
+    height: 400px;
+    width: 600px;
+    background-color: rgb(111, 14, 14);
+    border-radius: 20px;
+    box-shadow: 8px 17px 18px rgba(0, 0, 0, 0.122);
+}
+.gameover{
+    padding: 25px 25px;
+    height: 350px;
+    width: 550px;
+    background-color: rgb(219, 178, 125);
+    border-radius: 20px;
+    box-shadow: 18px 17px 18px rgba(0, 0, 0, 0.122);
+    border: 3px solid maroon;
+}
+.replaybtn{
+    margin-top: 25px;
+    margin-left: 175px;
+    padding: 13px 50px;
+    border: none;
+    background: maroon;
+    color: burlywood;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.replaybtn:hover{
+    background: rgb(176, 138, 88);
+    color: maroon;
+}
+.gotext{
+    font-size: 45px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(93, 2, 2);
+    margin-top: 100px;
+
+}
