@@ -14,12 +14,12 @@
 
     <!-- ----- -->
 
-    <div class="boxonebg">
+    <div class="boxonebg" id="firstscreen">
         <div class="boxone">
             <h2 class="boxtextone">Wanna Play A Game? <br> Enter Your Name</h2>
-            <input type="text" placeholder="Enter Your Name" class="boxoneinput">
-            <button class="btnone">Start Game</button>
-            <h3 class="boxtextonee" hidden>Name Is Missing!</h3>
+            <input type="text" placeholder="Enter Your Name" class="boxoneinput" id="nameinputone">
+            <button class="btnone" id="startbtn">Start Game</button>
+            <h3 class="boxtextonee" id="nameerrorone" hidden>Name Is Missing!</h3>
 
 
         </div>
@@ -28,106 +28,86 @@
 
     <!-- ----- -->
 
-     <div class="playone">
 
-        <div class="playeronebg">
+        <div class="playeronebg" id="playeronescreen">
 
           <div class="playerone">
-             <h2 class="playertextone">Player-1</h2>
-             <input type="text" placeholder="Enter a Number" class="playeroneinput">
-             <button class="pbtnone">Let's Go</button>
-             <h3 class="playertextonee">Must Enter A Number!</h3>
+             <h2 class="playertextone" id="playernameone">Player-1</h2>
+             <input type="number" placeholder="Enter a Number" class="playeroneinput" id="numberoneinput">
+             <button class="pbtnone" id="numberonebtn">Let's Go</button>
+             <h3 class="playertextonee" id="numoneerror" hidden>Must Enter A Number!</h3>
             </div>
 
         </div>
 
-     </div>
 
 
     <!-- ----- -->
 
-     <div class="btwo">
-
-        <div class="boxtwobg">
+        <div class="boxtwobg" id="secondscreen">
 
           <div class="boxtwo">
              <h2 class="boxtexttwo">Player-2 <br>Enter Your Name</h2>
-             <input type="text" placeholder="Enter Your Name" class="boxtwoinput">
-             <button class="btntwo">Start Game</button>
-             <h3 class="boxtexttwoo">Name Is Missing!</h3>
+             <input type="text" placeholder="Enter Your Name" class="boxtwoinput" id="nameinputtwo">
+             <button class="btntwo" id="screentwobtn">Start Game</button>
+             <h3 class="boxtexttwoo" id="nametwoerror" hidden>Name Is Missing!</h3>
             </div>
 
         </div>
-
-     </div>
 
 
     <!-- ----- -->
 
-        <div class="playtwo">
-
-        <div class="playertwobg">
+      <div class="playertwobg" id="playertwoscreen">
 
           <div class="playertwo">
-             <h2 class="playertexttwo">Player-2</h2>
-             <input type="text" placeholder="Guess The Number" class="playertwoinput">
-             <button class="pbtntwo">Guess</button>
-             <h3 class="playertexttwoo">Must Enter A Number!</h3>
-            </div>
+             <h2 class="playertexttwo" id="playernametwo">Player-2</h2>
+             <input type="number" placeholder="Guess The Number" class="playertwoinput" id="numbertwoinput">
+             <button class="pbtntwo" id="numtwobtn">Guess</button>
+             <h3 class="playertexttwoo" id="numtwoerror" hidden>Must Enter A Number!</h3>
 
-        </div>
+            </div>
 
       </div>
    <!-- ------------------------- -->
 
-         <div class="bthree">
 
-        <div class="boxthreebg">
+        <div class="boxthreebg" id="thirdscreen">
 
           <div class="boxthree">
              <h2 class="boxtextthree">Player-3 <br>Enter Your Name</h2>
-             <input type="text" placeholder="Enter Your Name" class="boxthreeinput">
-             <button class="btnthree">Start Game</button>
-             <h3 class="boxtextthreee">Name Is Missing!</h3>
+             <input type="text" placeholder="Enter Your Name" class="boxthreeinput" id="nameinputthree">
+             <button class="btnthree" id="screenthreebtn">Start Game</button>
+             <h3 class="boxtextthreee" id="namethreeerror" hidden>Name Is Missing!</h3>
             </div>
 
         </div>
-
-     </div>
 
 
     <!-- ----- -->
 
-      <div class="playthree">
-
-        <div class="playerthreebg">
+        <div class="playerthreebg" id="playerthreescreen">
 
           <div class="playerthree">
-             <h2 class="playertextthree">Player-3</h2>
-             <input type="text" placeholder="Guess The Number" class="playerthreeinput">
-             <button class="pbtnthree">Guess</button>
-             <h3 class="playertextthreee">Must Enter A Number!</h3>
+             <h2 class="playertextthree" id="playernamethree">Player-3</h2>
+             <input type="number" placeholder="Guess The Number" class="playerthreeinput" id="numberthreeinput">
+             <button class="pbtnthree" id="numthreebtn">Guess</button>
+             <h3 class="playertextthreee" id="numthreeerror" hidden>Must Enter A Number!</h3>
             </div>
 
         </div>
-
-      </div>
 
     <!-- ---------------- -->
 
-      <div class="over">
-
-        <div class="overbg">
+        <div class="overbg" id="endscreen">
 
           <div class="gameover">
-             <h2 class="gotext">Game Over</h2>
-             <button class="replaybtn">Re-Play</button>
+            <h2 class="endtext" id="wintext"></h2>
+            <h2 class="gotext" id="gameovertext">Game Over</h2>
             </div>
 
         </div>
 
-      </div>
-
-
+  <script src="js/script.js"></script>
 </body>
 </html>

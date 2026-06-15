@@ -82,10 +82,7 @@ h1{
 
 /* -------------------player one------------------------------- */
 
-.playone{
-    padding: 20px 100px;
-    display: none;
-}
+
 .playeronebg{
     padding: 25px 25px;
     margin: 0 auto;
@@ -94,6 +91,7 @@ h1{
     background-color: rgb(111, 14, 14);
     border-radius: 20px;
     box-shadow: 8px 17px 18px rgba(0, 0, 0, 0.122);
+    display: none;
 }
 .playerone{
     padding: 25px 25px;
@@ -149,10 +147,6 @@ h1{
 }
 /* -------------------box three------------ */
 
-.btwo{
-    padding: 20px 100px;
-    display: none;
-}
 .boxtwobg{
     padding: 25px 25px;
     margin: 0 auto;
@@ -161,6 +155,7 @@ h1{
     background-color: rgb(111, 14, 14);
     border-radius: 20px;
     box-shadow: 8px 17px 18px rgba(0, 0, 0, 0.122);
+    display: none;
 }
 .boxtwo{
     padding: 25px 25px;
@@ -217,10 +212,6 @@ h1{
 
 /* -----------player two------------------- */
 
-.playtwo{
-    padding: 20px 100px;
-    display: none;
-}
 .playertwobg{
     padding: 25px 25px;
     margin: 0 auto;
@@ -229,6 +220,7 @@ h1{
     background-color: rgb(111, 14, 14);
     border-radius: 20px;
     box-shadow: 8px 17px 18px rgba(0, 0, 0, 0.122);
+    display: none;
 }
 .playertwo{
     padding: 25px 25px;
@@ -282,13 +274,8 @@ h1{
     background: rgb(74, 2, 2);
     border-radius: 50px;
 }
-
 /* ----------box three--------- */
 
-.bthree{
-    padding: 20px 100px;
-    display: none;
-}
 .boxthreebg{
     padding: 25px 25px;
     margin: 0 auto;
@@ -297,6 +284,7 @@ h1{
     background-color: rgb(111, 14, 14);
     border-radius: 20px;
     box-shadow: 8px 17px 18px rgba(0, 0, 0, 0.122);
+    display: none;
 }
 .boxthree{
     padding: 25px 25px;
@@ -353,10 +341,6 @@ h1{
 
 /* --------player three----------- */
 
-.playthree{
-    padding: 20px 100px;
-    display: none;
-}
 .playerthreebg{
     padding: 25px 25px;
     margin: 0 auto;
@@ -365,6 +349,7 @@ h1{
     background-color: rgb(111, 14, 14);
     border-radius: 20px;
     box-shadow: 8px 17px 18px rgba(0, 0, 0, 0.122);
+    display: none;
 }
 .playerthree{
     padding: 25px 25px;
@@ -420,10 +405,6 @@ h1{
 }
 /* ------gameover------- */
 
-.over{
-    padding: 20px 100px;
-    display: none;
-}
 .overbg{
     padding: 25px 25px;
     margin: 0 auto;
@@ -432,6 +413,8 @@ h1{
     background-color: rgb(111, 14, 14);
     border-radius: 20px;
     box-shadow: 8px 17px 18px rgba(0, 0, 0, 0.122);
+    display: none;
+    
 }
 .gameover{
     padding: 25px 25px;
@@ -442,7 +425,7 @@ h1{
     box-shadow: 18px 17px 18px rgba(0, 0, 0, 0.122);
     border: 3px solid maroon;
 }
-.replaybtn{
+.playagainbtn{
     margin-top: 25px;
     margin-left: 175px;
     padding: 13px 50px;
@@ -453,7 +436,7 @@ h1{
     font-weight: 600;
     cursor: pointer;
 }
-.replaybtn:hover{
+.playagainbtn:hover{
     background: rgb(176, 138, 88);
     color: maroon;
 }
@@ -463,6 +446,15 @@ h1{
     letter-spacing: 2px;
     text-align: center;
     color: rgb(93, 2, 2);
-    margin-top: 100px;
+    margin-top: 55px;
+
+}
+.endtext{
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(93, 2, 2);
+    margin-top: 50px;
 
 }
